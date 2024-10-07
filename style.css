@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.intro, .projects, .contact {
+    padding: 2rem;
+    text-align: center;
+}
+
+.intro {
+    max-width: 800px; /* Limit the width to make it easier to read */
+    margin: 0 auto; /* Center the intro section */
+    line-height: 1.6; /* Improve line spacing for readability */
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem; /* Increase spacing between paragraphs */
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact ul li {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.contact ul li a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact ul li a:hover {
+    text-decoration: underline;
+}
